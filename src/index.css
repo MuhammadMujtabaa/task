@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neue-Haas-Grotesk-Display-Pro-regular";
+  src: url("../src/assets/fonts/NeueHaasDisplayRoman.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Neue-Haas-Grotesk-Display-Pro-bold";
+  src: url("../src/assets/fonts/NeueHaasDisplayBold.ttf");
+}
+
+@font-face {
+  font-family: "Neue-Haas-Grotesk-Display-Pro-medium";
+  src: url("../src/assets/fonts/NeueHaasDisplayMediu.ttf");
+}
+
+.font-medium{
+  font-family: "Neue-Haas-Grotesk-Display-Pro-medium";
+  font-weight: 500;
+}
+
+.font-semibold{
+  font-family: "Neue-Haas-Grotesk-Display-Pro-medium";
+  font-weight: 600;
+}
+
+.font-bold  {
+  font-family: "Neue-Haas-Grotesk-Display-Pro-bold";
+  font-weight: 700;
+}
+
+@layer base {
+  html {
+    font-family: "Neue-Haas-Grotesk-Display-Pro-regular";
+  }
+}
+:root {
+  color-scheme: light dark;
+  background-color: #F4F4F4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
